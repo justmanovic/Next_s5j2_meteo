@@ -1,0 +1,23 @@
+body {
+  color: rgb(12, 12, 12);
+  font-family: sans-serif;
+}
+
+.city {
+  border: 1px rgba(0, 0, 0, 0.336) solid;
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cities {
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

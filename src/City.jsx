@@ -5,10 +5,11 @@ const City = (props) => {
 
   return (
 
-    <a href="#"><div className="city">{props.name}</div></a>
+    // <div className="city" onClick={props.onClick}>{props.name}</div>
+    <div className="city" onClick={() => props.onClick(props.lat, props.long)} >{props.name}</div>
 
   );
 
-} 
+}
 
 export default City
